@@ -1,0 +1,28 @@
+{
+  "name": "gvlasov/xhamster-test-task-3",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Gvlasov\\XhamsterTestTask3\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Suite\\": "tests/Suite",
+      "Tests\\Helpers\\": "tests/Helpers"
+    }
+  },
+  "require": {
+    "doctrine/orm": "^2.11.0",
+    "doctrine/dbal": "^3.2",
+    "symfony/yaml": "^5.4",
+    "symfony/cache": "^5.4",
+    "nesbot/carbon": "^2.66",
+    "gedmo/doctrine-extensions": "^3.11"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10",
+    "mockery/mockery": "^1.5",
+    "php-di/php-di": "^7.0"
+  }
+}
